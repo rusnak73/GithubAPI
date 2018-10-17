@@ -151,6 +151,8 @@ document.addEventListener('DOMContentLoaded', function(){
         })
     }
     function getByAxios(){
+        let html = '';
+        document.querySelector('.list-container .row').innerHTML = '';
         axios.get(URL)
         // .then(data=>console.log(data.data))
         .then(data=>{for(let i = 21; i<27; i++){
