@@ -1,0 +1,48 @@
+body{
+    background-color: #e1f5fe;
+    position: relative;
+    height: 100vh;
+}
+img {
+    max-width: 100%;
+}
+.user-list{
+    position: absolute;
+    max-width: 380px;
+    padding: 0 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+}
+.list-header {
+    height: 45px;
+}
+.container .align-items-center p{
+    margin: 0;
+}
+.container .navbar-expand-lg .navbar-nav .nav-link {
+    display: block;
+    padding: 0 !important;
+}
+.container .list-container{
+    margin: 10px 0;
+}
+.container .list-container .user-logo{
+    width: 50px;
+    height: 50px;
+    
+}
+.container .list-container .user-logo img{
+    display: block;
+    border-radius: 50%;
+}
+.container .list-container .user-info {
+    margin-left: 20px;
+}
+.container .list-container .user-info h2{
+    font-size: 24px;
+}
