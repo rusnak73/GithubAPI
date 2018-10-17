@@ -1,7 +1,9 @@
 body{
     background-color: #e1f5fe;
     position: relative;
+    padding-top: 50px;
     height: 100vh;
+
 }
 img {
     max-width: 100%;
