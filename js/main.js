@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    const URL = 'data/users.json';
+    const URL = 'https://api.github.com/users';
     let listElements = document.getElementsByClassName('dropdown-item');
     let listValue = '';
     // getByAjax();
